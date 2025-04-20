@@ -20,6 +20,7 @@ import com.spring.supplychainfinal.service.CategoriesService;
 
 @RestController
 @RequestMapping("/categories")
+@CrossOrigin(origins = "*")
 //@CrossOrigin(origins="http://localhost:4200", allowedHeaders = "*")
 public class CategoriesController {
 

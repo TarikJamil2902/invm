@@ -19,6 +19,7 @@ import com.spring.supplychainfinal.repository.WarehouseRepository;
 import com.spring.supplychainfinal.service.WarehouseService;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/warehouse")
 //@CrossOrigin(origins="http://localhost:4200", allowedHeaders = "*")
 public class WarehouseController {

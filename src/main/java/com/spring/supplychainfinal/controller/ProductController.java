@@ -21,6 +21,7 @@ import com.spring.supplychainfinal.service.ProductService;
 
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/product")
 //@CrossOrigin(origins="http://localhost:4200", allowedHeaders="*")
 public class ProductController {

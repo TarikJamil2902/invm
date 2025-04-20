@@ -18,6 +18,7 @@ import com.spring.supplychainfinal.entity.Brand;
 import com.spring.supplychainfinal.service.BrandService;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/brand")
 public class BrandController {
 

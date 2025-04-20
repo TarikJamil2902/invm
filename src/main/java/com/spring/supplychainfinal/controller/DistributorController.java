@@ -21,6 +21,7 @@ import com.spring.supplychainfinal.entity.Warehouse;
 import com.spring.supplychainfinal.service.DistributorService;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/distributor")
 //@CrossOrigin(origins="http://localhost:4200", allowedHeaders="*")
 public class DistributorController {
